@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Commander.Data
 {
-    interface ICommanderRepo
+    public interface ICommanderRepo
     {
         IEnumerable<Command> GetAppCommands();
         Command GetCommandById(int id);
